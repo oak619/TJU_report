@@ -1,0 +1,65 @@
+\documentclass[10pt]{article}
+\usepackage{mypackages}
+%\usepackage[UTF8]{ctex} 
+
+\renewcommand{\contentsname}{\erhao\song{\textbf{目\quad 录}}}
+\setcounter{tocdepth}{2}
+%\titlecontents{chapter}[0em]{\vspace{3pt}\xiaosi\song\bf}%
+%{\prechaptername\CJKnumber{\thecontentslabel}\postchaptername\quad}{} %
+%{\hspace{.5em}\titlerule*[7pt]{.}\xiaosi\contentspage}
+%\titlecontents{section}[2em]{\vspace{3pt}\xiaosi\song} %
+%{\thecontentslabel\quad}{} %
+%{\hspace{.5em}\titlerule*[7pt]{.}\xiaosi\contentspage}
+%\titlecontents{subsection}[4em]{\vspace{3pt}\xiaosi\song} %
+%{\thecontentslabel\quad}{} %
+%{\hspace{.5em}\titlerule*[7pt]{.}\xiaosi\contentspage}
+%\renewcommand{\bibname}{参考文献}
+
+
+\begin{document}
+	\begin{titlepage}
+		\centering
+		\vspace*{-2cm}
+		\includegraphics[width=0.5\textwidth]{tju_1.png}\par
+		\vspace{0.5cm}
+		\begin{center}
+			\erhao \textbf{《机床动力学》课程报告}
+		\end{center}
+		\vspace{1cm}
+		\includegraphics[width=0.4\textwidth]{tju_2}\par
+		\begin{center}
+			\erhao \hei \makebox[12em][l]{题目：}
+		\end{center}
+		\vspace{3cm}
+		\begin{center}
+		\song\sihao
+		\renewcommand\arraystretch{1.5}
+		\begin{tabular}{p{2cm}c}
+			\makebox[2em][l]{学\qquad 院：}& \underline{\makebox[6em][l]{机械工程学院}} \\
+			\makebox[2em][l]{专\qquad 业：} & \underline{\makebox[6em][l]{机械工程}} \\
+			\makebox[2em][l]{姓\qquad 名：}&\underline{\makebox[6em][l]{张三}}\\
+			\makebox[2em][l]{学\qquad 号：}&\underline{\makebox[6em][l]{1017201000}}\\
+		\end{tabular}
+	
+	\vspace{3cm}
+	\today
+		\end{center}
+	\end{titlepage}
+
+\newpage
+\xiaosihao
+\tableofcontents
+\thispagestyle{empty}
+\clearpage
+\setcounter{page}{1}
+
+\section{研究背景及意义}
+\lipsum[1]
+\section{主要内容}
+\subsection{指标1}
+\lipsum[2]
+\subsection{指标2}
+\lipsum[3]
+\section{结论}
+\lipsum[4]
+\end{document}
